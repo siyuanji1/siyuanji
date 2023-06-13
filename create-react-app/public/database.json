@@ -1,0 +1,268 @@
+{
+  "dog1": {
+      "id": 1,
+      "name": "Max",
+      "ageCategory": "Young",
+      "age": "2 years old",
+      "gender": "Male",
+      "size": "Medium",
+      "color": "Brown",
+      "adoptionDistance": "< 5 miles",
+      "breed": "German Shepherd",
+      "habits": ["Active", "Friendly","Alarms"
+        ],
+      "weight": 65,
+      "personality": ["Confident", "Smart", "Work-oriented"
+        ],
+      "introduction": "Max is a young and energetic German Shepherd looking for his forever home. He's great with people, but needs some time to warm up to other dogs. Max will thrive in an active household where he can get plenty of exercise and mental stimulation.",
+      "images": [
+        "/img/dog_photos/1-Max-1.jpg",
+        "/img/dog_photos/1-Max-2.jpg",
+        "/img/dog_photos/1-Max-3.jpg"
+      ],
+      "image_way": "/img/img1.jpg"
+    },
+    "dog2": {
+      "id": 2,
+      "name": "Bella",
+      "ageCategory": "Adult",
+      "age": "4 years old",
+      "gender": "Female",
+      "size": "Small",
+      "color": "White",
+      "adoptionDistance": "< 10 miles",
+      "breed": "Australian Terrier",
+      "habits": ["Friendly", "Quiet", "Devoted"
+        ],
+      "weight": 15,
+      "personality": ["Affectionate", "Intelligent", "Calm"
+        ],
+      "introduction": "Bella is a sweet and affectionate Australian Terrier who loves cuddling with her humans. She's well-behaved, great with children, and gets along well with other dogs. Bella will make a wonderful addition to any family looking for a small, loving companion.",
+      "images": [
+        "/img/dog_photos/2-Bella-1.png",
+        "/img/dog_photos/2-Bella-2.jpg",
+        "/img/dog_photos/2-Bella-3.jpg"
+      ]
+    },
+    "dog3": {
+      "id": 3,
+      "name": "Charlie",
+      "ageCategory": "Senior",
+      "age": "9 years old",
+      "gender": "Male",
+      "size": "Large",
+      "color": "Black",
+      "adoptionDistance": "< 50 miles",
+      "breed": "Golden Retriever",
+      "habits": ["Friendly", "Active", "Devoted"
+        ],
+      "weight": 75,
+      "personality": ["Exuberant", "Intelligent", "Affectionate"
+        ],
+      "introduction": "Charlie is a senior Golden Retriever with a heart of gold. He's friendly and loves playing with his human friends. Despite his age, he's still active and enjoys going for walks. Charlie will make a great companion for a family who can provide him with love and care during his golden years.",
+      "images": [
+        "/img/dog_photos/3-Charlie-1.jpg",
+        "/img/dog_photos/3-Charlie-2.jpg",
+        "/img/dog_photos/3-Charlie-3.jpg"
+      ]
+    },
+    "dog4": {
+      "id": 4,
+      "name": "Daisy",
+      "ageCategory": "Adult",
+      "age": "5 years old",
+      "gender": "Female",
+      "size": "Medium",
+      "color": "Grey",
+      "adoptionDistance": "< 100 miles",
+      "breed": "Australian Shepherd",
+      "habits": ["Active", "Alarms", "Not friendly to other dogs"
+        ],
+      "weight": 50,
+      "personality": ["Work-oriented", "Intelligent", "Courageous"
+        ],
+      "introduction": "Daisy is a smart and energetic Australian Shepherd who requires an experienced owner. She's protective of her family and tends to bark at strangers. Daisy needs a home where she can have a job to do and plenty of room to run and play.",
+      "images": [
+        "/img/dog_photos/4-Daisy-1.jpg",
+        "/img/dog_photos/4-Daisy-2.jpg",
+        "/img/dog_photos/4-Daisy-3.jpg"
+      ]
+    },
+    "dog5": {
+      "id": 5,
+      "name": "Rocky",
+      "ageCategory": "Young",
+      "age": "2 years old",
+      "gender": "Male",
+      "size": "Large",
+      "color": "Black",
+      "adoptionDistance": "< 5 miles",
+      "breed": "Bulldog",
+      "habits": ["Friendly", "Quiet", "Devoted"
+        ],
+      "weight": 55,
+      "personality": ["Calm", "Funny", "Affectionate"
+        ],
+      "introduction": "Rocky is a young and friendly Bulldog with a calm and gentle nature. He loves to cuddle and gets along well with children and other pets. Rocky would make an excellent family companion for those looking for a low-energy, affectionate dog.",
+      "images": [
+        "/img/dog_photos/5-Rocky-1.jpg",
+        "/img/dog_photos/5-Rocky-2.jpg",
+        "/img/dog_photos/5-Rocky-3.jpg"
+      ]
+    },
+    "dog6": {
+        "id": 6,
+        "name": "Lola",
+        "ageCategory": "Adult",
+        "age": "3 years old",
+        "gender": "Female",
+        "size": "Medium",
+        "color": "Brown",
+        "adoptionDistance": "< 10 miles",
+        "breed": "Cane Corso",
+        "habits": ["Alarms", "Active", "Not friendly to other dogs"
+        ],
+        "weight": 90,
+        "personality": ["Confident", "Courageous", "Majestic"
+        ],
+        "introduction": "Lola is a strong and confident Cane Corso with a protective nature. She requires an experienced owner who can provide her with the proper training and socialization. Lola would be best suited for a home without other dogs and would make an excellent guard dog.",
+        "images": [
+            "/img/dog_photos/6-Lola-1.jpg",
+            "/img/dog_photos/6-Lola-2.jpg",
+            "/img/dog_photos/6-Lola-3.jpg"
+          ]
+    },
+    "dog7": {
+        "id": 7,
+        "name": "Sam",
+        "ageCategory": "Senior",
+        "age": "8 years old",
+        "gender": "Male",
+        "size": "Large",
+        "color": "White",
+        "adoptionDistance": "< 50 miles",
+        "breed": "German Shepherd",
+        "habits": ["Active", "Friendly","Alarms"
+    ],
+        "weight": 85,
+        "personality":  ["Confident", "Smart", "Work-oriented"
+    ],
+        "introduction": "Sam is a senior German Shepherd with a gentle and loving personality. He's great with children and other pets, and enjoys spending his days lounging around with his family. Sam is looking for a loving home where he can enjoy his golden years in peace and comfort.",
+        "images": [
+            "/img/dog_photos/7-Sam-1.jpg",
+            "/img/dog_photos/7-Sam-2.jpg",
+            "/img/dog_photos/7-Sam-3.jpg"
+          ]
+    },
+    "dog8": {
+        "id": 8,
+        "name": "Molly",
+        "ageCategory": "Young",
+        "age": "1 year old",
+        "gender": "Female",
+        "size": "Small",
+        "color": "Black",
+        "adoptionDistance": "< 100 miles",
+        "breed": "Australian Terrier",
+        "habits": ["Friendly", "Quiet", "Devoted"
+    ],
+        "weight": 14,
+        "personality": ["Affectionate", "Intelligent", "Calm"
+    ],
+    "introduction": "Molly is an energetic and playful young Australian Terrier who loves to be the center of attention. She's great with kids and other pets, making her the perfect addition to an active family. Molly would benefit from regular exercise and mental stimulation to keep her happy and engaged.",        "images": [
+            "/img/dog_photos/8-Molly-1.jpg",
+            "/img/dog_photos/8-Molly-2.jpg",
+            "/img/dog_photos/8-Molly-3.jpg"
+          ]
+    },
+    "dog9": {
+        "id": 9,
+        "name": "Zeus",
+        "ageCategory": "Adult",
+        "age": "4 years old",
+        "gender": "Male",
+        "size": "Large",
+        "color": "Grey",
+        "adoptionDistance": "< 5 miles",
+        "breed": "Bulldog",
+        "habits":  ["Friendly", "Quiet", "Devoted"
+    ],
+        "weight": 60,
+        "personality": ["Calm", "Funny", "Affectionate"
+    ],
+        "introduction": "Zeus is a friendly and calm Bulldog with a laid-back personality. He's great with children and enjoys lounging around with his family. Zeus would make an excellent companion for someone looking for a low-maintenance, affectionate dog to share their home with.",
+        "images": [
+            "/img/dog_photos/9-Zeus-1.jpg",
+            "/img/dog_photos/9-Zeus-2.jpg",
+            "/img/dog_photos/9-Zeus-3.jpg"
+          ]
+    },
+    "dog10": {
+        "id": 10,
+        "name": "Roxy",
+        "ageCategory": "Senior",
+        "age": "8 years old",
+        "gender": "Female",
+        "size": "Medium",
+        "color": "Brown",
+        "adoptionDistance": "< 10 miles",
+        "breed": "Golden Retriever",
+        "habits":  ["Friendly", "Active", "Devoted"
+    ],
+        "weight": 60,
+        "personality":  ["Exuberant", "Intelligent", "Affectionate"
+    ],
+    "introduction": "Roxy is a friendly and active young Golden Retriever who loves to play and be around people. She's great with children and other pets, making her the perfect addition to a loving family. Roxy would benefit from regular exercise and mental stimulation to keep her happy and engaged.",        "images": [
+            "/img/dog_photos/10-Roxy-1.png",
+            "/img/dog_photos/10-Roxy-2.png",
+            "/img/dog_photos/10-Roxy-3.png"
+          ]
+    },
+    "dog11": {
+        "id": 11,
+        "name": "Leo",
+        "ageCategory": "Adult",
+        "age": "5 years old",
+        "gender": "Male",
+        "size": "Large",
+        "color": "Black",
+        "adoptionDistance": "< 50 miles",
+        "breed": "Australian Shepherd",
+        "habits":  ["Active", "Alarms", "Not friendly to other dogs"
+    ],
+        "weight": 55,
+        "personality":["Work-oriented", "Intelligent", "Courageous"
+    ],
+        "introduction": "Leo is a smart and energetic Australian Shepherd who thrives in an active environment. He's protective of his family and tends to bark at strangers. Leo would do best in a home where he can have a job to do and plenty of room to run and play.",
+        "images": [
+            "/img/dog_photos/11-Leo-1.jpg",
+            "/img/dog_photos/11-Leo-2.jpg",
+            "/img/dog_photos/11-Leo-3.jpg"
+          ]
+    },
+    "dog12": {
+        "id": 12,
+        "name": "Lucy",
+        "ageCategory": "Senior",
+        "age": "7 years old",
+        "gender": "Female",
+        "size": "Medium",
+        "color": "White",
+        "adoptionDistance": "< 100 miles",
+        "breed": "Cane Corso",
+        "habits": ["Alarms", "Active", "Not friendly to other dogs"
+    ],
+        "weight": 95,
+        "personality": ["Confident", "Courageous", "Majestic"
+    ],
+        "introduction": "Lucy is a senior Cane Corso with a calm and gentle demeanor. She's affectionate with her family but can be aloof with strangers and other dogs. Lucy would do best in a home without other pets and with an experienced owner who can provide her with the love and care she needs during her golden years.",
+        "images": [
+            "/img/dog_photos/12-Lucy-1.jpg",
+            "/img/dog_photos/12-Lucy-2.jpg",
+            "/img/dog_photos/12-Lucy-3.jpg"
+          ]
+    }
+}
+
+        
+  

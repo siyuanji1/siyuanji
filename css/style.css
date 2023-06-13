@@ -1,0 +1,606 @@
+/* Mobile-phone mode */
+/* Main part */
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1,
+h2 {
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Navigation part*/
+#nav-pages,
+#login-block,
+#fav-pages,
+#search-pages {
+  display: none;
+}
+
+nav i {
+  color: orange;
+  font-size: 2rem;
+  margin-left: .5em;
+}
+
+nav {
+  padding: 20px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+
+.brand-container ul,
+.login-container ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.brand-container li a,
+.login-container li a {
+  display: block;
+  padding: 0 10px;
+  font-weight: 600;
+}
+
+.brand-container li a:hover,
+.login-container li a:hover {
+  color: #777;
+}
+
+.brand a {
+  color: orange;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.login {
+  margin-left: 20px;
+}
+
+.navbar-toggler {
+  margin-right: 1em
+}
+
+.offcanvas {
+  margin-right: 0em;
+}
+
+.offcanvas-title {
+  font-size: 32px;
+  color: orange;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  font-size: 20px;
+}
+
+.navbar-nav li {
+  margin: 0;
+}
+
+
+li.nav-item>a.nav-link.active {
+  font-weight: bold;
+}
+
+.login-signup {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+}
+
+
+/* Background Image Section */
+.bg-image-home {
+  background-image: url('../img/dog-and-cat.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.bg-image-home h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.bg-image-home p.subtitle {
+  font-family: 'Pacifico', cursive;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* Homepage Main section */
+.intro-section {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.intro-text {
+  width: 85%;
+}
+
+.intro-text a {
+  color: orange;
+}
+
+.intro-img {
+  width: 85%;
+}
+
+.intro-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.beige-background {
+  background-color: beige;
+}
+
+/* Compare Main section */
+.pt-4 {
+  text-align: center;
+}
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.col-auto {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
+button.btn-search {
+  padding: 5px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  /* background-color: orange; */
+  background-color: orange;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+table {
+  margin-top: 1rem;
+  background-color: #ffffff;
+}
+
+.image-size {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.oval-word {
+  display: inline-block;
+  background-color: orange;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 4px 12px;
+  margin: 4px;
+}
+
+/* Search Main section */
+/* Search bar */
+.bg-image {
+  background-image: url('../img/dog-and-cat.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-family: 'Pacifico', cursive;
+}
+
+.bg-image h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+.bg-image p.subtitle {
+  font-family: 'Pacifico', cursive;
+}
+
+#search-form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#search {
+  flex-grow: 1;
+  width: 50%;
+  /* Add this line */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 1em 1em 1em 1em;
+}
+
+button[type="submit"]:hover {
+  background-color: #777;
+}
+
+/* Filter bar */
+.filter-form {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  margin-bottom: 20px;
+  margin-left: 1em;
+}
+
+.filter-form label {
+  margin-right: 8px;
+}
+
+.filter-form select {
+  margin-right: 8px;
+}
+
+button[type="submit"] {
+  padding: 8px 16px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 1em;
+}
+
+button[type="submit"]:hover {
+  background-color: #777;
+}
+
+.dropdown-menu label,
+select {
+  height: 80%;
+  margin: 0.5em 0 0.5em 0.5em;
+}
+
+/* Fitler merge */
+.nav-item.dropdown {
+  display: flex;
+  margin-left: 1rem;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 1em 1em 1em 1em;
+
+}
+
+.search-filter-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+
+.nav-item.dropdown {
+  width: 100%;
+}
+
+/* Card section */
+.container-full {
+  width: 100%;
+}
+
+.bg-color {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-top: 0.5em;
+  margin-bottom: -20px;
+  width: 100%
+}
+
+/* Favorite-icon */
+.favorite-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.favorite-icon i {
+  color: #333;
+}
+
+
+/* Application Main section */
+#application .bg-color {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-top: 0.5em;
+  margin-bottom: -20px;
+  width: 100%;
+}
+
+#application h2 {
+  text-align: center;
+}
+
+#application p {
+  text-align: center;
+}
+
+.label-container .form-label.text-center {
+  text-align: center;
+}
+
+#application .form-information {
+  margin: .5rem 0;
+  padding: .5rem;
+  border: 1px solid gray;
+}
+
+#application .form-element {
+  margin-bottom: 1rem;
+}
+
+#application .form {
+  font-family: "Nunito Sans", Arial, Helvetica, sans-serif;
+}
+
+#application button.btn-color-app {
+  padding: 5px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  /* background-color: orange; */
+  background-color: orange;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#application button.btn-color-app:hover {
+  background-color: #e0a800;
+}
+
+#application select {
+  height: auto;
+  margin-left: 0;
+}
+
+/* Pet deatil page */
+.row img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.carousel-item img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-fit: contain;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e0a800;
+  width: 60px;
+  height: 80px;
+  color: #292125;
+  margin: auto;
+  border-width: 2px;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: #212529;
+  border-width: 2px;
+  color: #f8f9fa;
+}
+
+/* Favorite List section */
+/* Favorite-icon */
+.pick-favorite-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgb(243, 227, 227);
+  border: 2px solid #333;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.pick-favorite-icon i {
+  color: rgb(253, 0, 0);
+}
+
+
+/* footer */
+.footer-container h1 {
+  font-size: 30px;
+}
+
+.footer-container {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  font-size: 80%;
+}
+
+.material-icons {
+  vertical-align: middle;
+}
+
+/* Responsive design for laptop */
+@media (min-width: 888px) {
+  .bg-beige {
+    padding-bottom: 10px;
+  }
+
+  .select-container {
+    flex-direction: row;
+  }
+
+  #search {
+    margin-left: -15px;
+    width: 100%;
+  }
+
+  .nav-item.dropdown {
+    display: none;
+  }
+
+  .navbar-toggler,
+  .offcanvas {
+    display: none !important;
+
+  }
+
+  #nav-pages,
+  #login-block,
+  #fav-pages,
+  #search-pages {
+    display: flex;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .intro-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 1000px;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .intro-text {
+    width: 45%;
+    margin-right: 2%;
+    margin-bottom: 2%
+  }
+
+  .intro-img {
+    width: 45%;
+  }
+
+  .reverse-row {
+    flex-direction: row-reverse;
+  }
+
+  .footer-container {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .material-icons {
+    vertical-align: middle;
+  }
+
+  .bg-image-home {
+    background-image: url('../img/dog-and-cat.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+  }
+
+  .bg-image-home h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  .bg-image-home p.subtitle {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+  }
+}
+
+.brand a {
+  color: orange;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.login {
+  margin-left: 30px;
+}
+
+nav {
+  padding: 10px;
+}
+
+.offcanvas {
+  max-width: 250px;
+}
+
+.row-layout {
+  display: flex;
+}
+
+.form-select {
+  margin: 0;
+}
